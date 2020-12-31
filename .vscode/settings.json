@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"B:/Documents/Repos/Unreal Projects/BattleTank/.vscode": true,
+		"B:/Documents/Repos/Unreal Projects/BattleTank/Content": true,
+		"B:/Documents/Repos/Unreal Projects/BattleTank/DerivedDataCache": true,
+		"B:/Documents/Repos/Unreal Projects/BattleTank/Intermediate": true,
+		"B:/Documents/Repos/Unreal Projects/BattleTank/Saved": true
+	}
+}
