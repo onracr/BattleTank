@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "SpawnPoint.generated.h"
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(Blueprintable)
 class BATTLETANK_API USpawnPoint : public USceneComponent
 {
 	GENERATED_BODY()

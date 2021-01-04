@@ -26,7 +26,14 @@ private:
 	UPROPERTY(VisibleAnywhere, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	UPhysicsConstraintComponent *AxleWheelConstraint = nullptr;
 
-public:	
+	float TotalForceMagnitudeThisFrame = 0.f;
+
+	UFUNCTION()
+	void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
+	void ApplyForce();
+
+	public: 
 	ASprungWheel();
 
 	virtual void Tick(float DeltaTime) override;
